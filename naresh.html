@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meeting Registration</title>
+   <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+    }
+    .social-icons {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    form {
+      display: grid;
+    
+       gap: 15px;
+     
+    }
+    form input, form select {
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .full-width {
+      grid-column: span 2;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: blue;
+      color: white;
+      border: black;
+      
+      grid-column: span 2;
+    }
+    small {
+      font-size: 12px;
+      color:red;
+      grid-column: span 2;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="./images/download1.jpeg" alt="Naresh i Technologies Logo" width="200" style="display:block; margin:auto;">
+  
+  <h2>Meeting Registration</h2>
+  
+  <div class="social-icons">
+    <a href="blue"> <span class="bi bi-facebook"></span>Facebook</a>
+    <a href="#"><span class="bi bi-twitter"></span> Twitter</a>
+    <a href="#"><span class="bi bi-linkedin"></span> LinkedIn</a>
+    <a href="#"><span class="bi bi-email"></span> Email</a>
+  </div>
+
+  <p><strong>Topic:</strong> HTML | CSS | JavaScript @ 2.00 PM (IST) by Mr. Shiva Kumar from 15th July</p>
+  <p><strong>Description:</strong> HTML | CSS | JavaScript @ 2.00 PM (IST) by Mr. Shiva Kumar from 15th July</p>
+  <p><strong>Time:</strong><br>
+    Jul 16, 2025 02:00 PM<br>
+    Jul 17, 2025 02:00 PM<br>
+    Jul 18, 2025 02:00 PM<br>
+    Jul 19, 2025 02:00 PM<br>
+    Jul 20, 2025 02:00 PM<br>
+    Jul 21, 2025 02:00 PM
+  </p>
+
+  <form>
+    <input type="text" placeholder="First Name*" required>
+    <input type="text" placeholder="Last Name*" required>
+    <input type="email" placeholder="Email Address*" required>
+    <input type="email" placeholder="Confirm Email Address*" required>
+    <select required>
+      <option value="">Country/Region*</option>
+      <option value="India">India</option>
+      <option value="United States">United States</option>
+      <!-- Add more countries as needed -->
+    </select>
+    <input type="tel" placeholder="Phone*" required>
+    <input type="text" class="full-width" placeholder="State & City*" required>
+    <small>Information you provide when registering will be shared with the account owner and host and can be used and shared by them in accordance with their Terms and Privacy Policy.</small>
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
