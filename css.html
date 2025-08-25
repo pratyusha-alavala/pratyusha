@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="">
+    <title>css</title>
+    <style>
+        .test{
+            background:blue;
+            color:white;
+        }
+        .demo{
+            width:50%;
+            font-size: 20px;
+            text-align:justify ;
+        }
+        [type="text"]:focus{
+            box-shadow:0 0 10px red;
+            outline:none;
+        }
+        [type="password"]:focus{
+            box-shadow:0 0 10px red;
+            outline:none;
+        }
+        :visited{
+            color:blueviolet;
+        }
+        :active{}
+        a:hover{
+            color:green;
+        }
+        ol li:nth-child(odd){
+            color:hotpink;
+        }
+        ol li:nth-child(even){
+            color:blue;
+        }
+          ol li:nth-child{
+            color:teal;
+          }
+          ul li::marker{
+            color:red;
+            font-size:20px;
+          }
+          ::selection{
+            color:yellow;
+            background-color: aqua;
+          }
+          p::first-line{
+            color:blue;
+          }
+          ::placeholder{
+            color:chartreuse;
+            text-align:center;
+          }
+          p::first-letter{
+            color:darkviolet;
+            background-color:grey;
+            font-size:50px;
+          }
+          div{
+            font-size: 2.5em;
+            font-style:italic;
+            font-weight: bold;
+            font-family:Arial, Helvetica, sans-serif;
+            color:blueviolet;
+          }
+          .b{
+            font-size:50px;
+          }
+    
+    </style>
+</head>
+<body>
+    <h1>inline styles</h1>
+    <h2 style="color:blue;">hello world</h2>
+    <span style="background-color: red;color:white;">welcome</span>
+    <input type="text" style="color:green; text-align:right;"> 
+    <h1>selector</h1>
+    <div class="test demo">
+        A paragraph is a group of sentences focusing on a single idea or topic, marked by a new line or an indentation at the beginning of the first sentence. 
+    </div> 
+    <h1>pseudo</h1>
+    <input type="password">
+    <br>
+    <a href="">youtube</a> &nbsp;
+    <a href="">facebook</a>
+<br><br>
+<input type="text" placeholder="username"><br><br>
+<input type="pass word" placeholder="pass word">
+<p>sometimes a concluding sentence that summarizes the idea or transitions to the next topic. Paragraphs serve to organize written work, making it easier for the reader to follow the author's thoughts and understand the overall structure of the text. </p>
+
+<ol>
+    <li>microsoft</li><li>oracle</li><li>sap</li>
+    <li>meta</li><li>salesforce</li>
+</ol>
+<ul>
+    <li>hp</li><li>dell</li><li>Asus</li><li>Lenovo</li>
+</ul>
+<h1>font &text properties</h1>
+<div> this program is free software; youhhhhhhhhhkahdyugdksdguyfrdediddhdjhd.</div>
+<p class="b">pratyusha alavalabbbhggrsyyrhhhhffxdgbhhjygcssergbhhjyfdhjugggg</p>
+
+</body>
+</html>
